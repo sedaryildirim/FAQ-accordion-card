@@ -24,6 +24,8 @@ body {
   font-size: var(--normal-font-size);
   color: var(--body-p-color);
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: grid;
+  align-content: center;
 }
 
 /*=============== LAYOUT ===============*/
@@ -51,7 +53,6 @@ h1 {
 .title-faq {
   padding-top: 75px;
   text-align: center;
-  /* margin-top: 50px; */
 }
 
 .title-image {
