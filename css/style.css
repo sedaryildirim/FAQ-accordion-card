@@ -24,6 +24,8 @@ body {
   font-size: var(--normal-font-size);
   color: var(--body-p-color);
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: grid;
+  align-content: center;
 }
 
 /*=============== LAYOUT ===============*/
@@ -49,7 +51,22 @@ h1 {
 }
 
 .title-faq {
+  padding-top: 75px;
   text-align: center;
+}
+
+.title-image {
+  position: fixed;
+  padding-bottom: 660px;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+.title-image-shadow {
+  scale: 1.15;
+  position: absolute;
+  margin-left: 40px;
+  padding-bottom: 460px;
 }
 
 .accordion_container {
@@ -94,6 +111,19 @@ h1 {
 
 .accordion_item {
   border-bottom: solid 1px hsl(240, 5%, 91%);
+  background-color: var(--container-color);
+  position: relative;
+  transition: all .25s ease;
+}
+
+.accordion_item::after {
+  content: '';
+  background-color: var(--first-color);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: .25rem 0 0 .25rem;
 }
 
 .accordion_content {
