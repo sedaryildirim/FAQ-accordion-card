@@ -6,7 +6,7 @@
   /*========== Colors ==========*/
   --body-p-color: hsl(240, 6%, 50%);
   --container-color: #FFF;
-
+  
   /*========== Font and typography ==========*/
   --body-font: 'Kumbh Sans', sans-serif;
   --normal-font-size: 0.75rem;
@@ -22,13 +22,9 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  /* color: var(--body-p-color); */
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-repeat: no-repeat;
   height: 100vh;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-content: center; */
 }
 
 .container {
@@ -144,6 +140,15 @@ h1 {
   color: black
 }
 
-@media (min-width: 375px) {
+@media (min-width: 440px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+
   
 }
