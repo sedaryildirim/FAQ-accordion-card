@@ -57,14 +57,14 @@ h1 {
 
 .title-image {
   position: fixed;
-  padding-bottom: 660px;
+  padding-bottom: 750px;
   margin-right: 50px;
   margin-left: 25px;
 }
 
 .title-image-shadow {
   scale: 1.15;
-  position: absolute;
+  position: fixed;
   margin-left: 40px;
   padding-bottom: 460px;
 }
