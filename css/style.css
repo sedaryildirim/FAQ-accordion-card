@@ -22,24 +22,25 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--body-p-color);
+  /* color: var(--body-p-color); */
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  display: grid;
-  align-content: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-content: center; */
 }
 
-/*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
 }
 
-/*=============== ACCORDION ===============*/
 .accordion {
   display: grid;
   align-content: center;
-  height: 100vh;
+  height: 65vh; 
 }
 
 h1 {
@@ -50,17 +51,25 @@ h1 {
   margin-top: 30px;
 }
 
-.title-faq {
-  /* padding-top: 75px; */
-  text-align: center;
-}
-
-.title-image {
+.main-img {
+  position: relative;
+  z-index: 2;
   scale: 0.8;
+  left: 0px;
+  top: 210px;
 }
 
-.title-image-shadow {
-scale: 1.1;
+.sub-img {
+  position: relative;
+  z-index: 1;
+  scale: 1.1;
+  left: 50px;
+  top: 100px;
+}
+
+.title-faq {
+  padding-top: 50px;
+  text-align: center;
 }
 
 .accordion_container {
@@ -126,7 +135,6 @@ scale: 1.1;
   transition: all .25s ease;
 }
 
-/*Rotate icon and add font weight to titles*/
 .accordion-open .accordion_icon {
   transform: rotate(180deg);
 }
@@ -134,4 +142,8 @@ scale: 1.1;
 .accordion-open .accordion_title {
   font-weight: 700;
   color: black
+}
+
+@media (min-width: 375px) {
+  
 }
