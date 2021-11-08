@@ -192,7 +192,8 @@ h1 {
   }
 
   .title-faq {
-    padding-top: 0px;
+    padding-top: 0rem;
+    padding-left: 1rem;
     text-align: left;
   }
 
