@@ -58,6 +58,7 @@ Have to work on making sites fully responsive at all screen sizes, error with fl
 
 - [Kevin Powell](https://www.youtube.com/KevinPowell) - HTML & CSS tutorirals
 - [Net Ninja](https://www.youtube.com/thenetninja) - HTML, CSS & JS tutorirals
+- [iilhamriz](https://codepen.io/iilhamriz) - Accordion Help/JS to build from
 
 ## Author
 
@@ -71,3 +72,5 @@ Have to work on making sites fully responsive at all screen sizes, error with fl
 [Flexboxfroggy](https://flexboxfroggy.com/)
 
 [Kevin Powell](https://www.youtube.com/KevinPowell)
+
+[iilhamriz](https://codepen.io/iilhamriz)
