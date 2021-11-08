@@ -42,7 +42,7 @@ h1 {
 }
 
 .main-img {
-  content: url('../images/illustration-woman-online-mobile.svg');
+  content: url('images/illustration-woman-online-mobile.svg');
   position: relative;
   z-index: 2;
   scale: 0.8;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .sub-img {
-  content: url('../images/bg-pattern-mobile.svg');
+  content: url('images/bg-pattern-mobile.svg');
   position: relative;
   z-index: 1;
   scale: 1.1;
@@ -101,7 +101,7 @@ h1 {
   height: max-content;
   color: var(--title-color);
   transition: .3s;
-  content: url('../images/icon-arrow-down.svg');
+  content: url('images/icon-arrow-down.svg');
 }
 
 .accordion_item {
@@ -159,7 +159,7 @@ h1 {
   }
   
   .main-img {
-    content: url('../images/illustration-woman-online-desktop.svg');
+    content: url('images/illustration-woman-online-desktop.svg');
     position: absolute;
     z-index: 2;
     scale: 1;
@@ -168,7 +168,7 @@ h1 {
   }
   
   .sub-img {
-    content: url('../images/bg-pattern-desktop.svg');
+    content: url('images/bg-pattern-desktop.svg');
     position: absolute;
     z-index: 1;
     scale: 0.85;
@@ -178,7 +178,7 @@ h1 {
   }
   
   .box-img {
-    content: url('../images/illustration-box-desktop.svg');
+    content: url('images/illustration-box-desktop.svg');
     position: absolute;
     z-index: 3;
     left: 100px;
