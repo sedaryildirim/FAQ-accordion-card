@@ -51,7 +51,7 @@ h1 {
 }
 
 .sub-img {
-  content: url("/images/bg-pattern-mobile.svg");
+  content: url("./images/bg-pattern-mobile.svg");
   position: relative;
   z-index: 1;
   scale: 1.1;
