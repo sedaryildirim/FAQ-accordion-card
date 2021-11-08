@@ -42,7 +42,7 @@ h1 {
 }
 
 .main-img {
-  content: url('images/illustration-woman-online-mobile.svg');
+  content: url('/images/illustration-woman-online-mobile.svg');
   position: relative;
   z-index: 2;
   scale: 0.8;
