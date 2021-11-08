@@ -19,6 +19,7 @@ body {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-repeat: no-repeat;
   height: 100vh;
+  width: auto;
 }
 
 .container {
@@ -30,7 +31,8 @@ body {
 .accordion {
   display: grid;
   align-content: center;
-  height: 65vh; 
+  height: 50vh;
+  /* width: 50vh; */
 }
 
 h1 {
@@ -137,7 +139,7 @@ h1 {
 }
 
 @media (min-width: 440px) {
-  body {
+  /* body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
@@ -145,8 +147,9 @@ h1 {
     height: 100vh;
     display: grid;
     justify-content: center;
+    justify-content: center;
     align-items: center;
-  }
+  } */
 
   main {
     display: flex;
@@ -167,6 +170,7 @@ h1 {
     padding-left: 40%;
     padding-right: 10%;
     padding-bottom: 10%;
+    width: 75vh;
   }
   
   .main-img {
@@ -175,7 +179,7 @@ h1 {
     z-index: 2;
     scale: 1;
     left: -240px;
-    top: 400px;
+    top: 600px;
   }
   
   .sub-img {
@@ -193,7 +197,7 @@ h1 {
     z-index: 3;
     scale: 0.85;
     left: -230px;
-    top: 175px;
+    top: 375px;
   }
   
   .title-faq {
