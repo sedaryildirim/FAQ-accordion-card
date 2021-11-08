@@ -22,6 +22,14 @@ body {
   width: auto;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
 .container {
   /* max-width: 968px; */
   margin-left: 1.2rem;
@@ -50,6 +58,7 @@ h1 {
   scale: 0.8;
   left: 0px;
   top: 210px;
+  padding-top: 10rem;
 }
 
 .sub-img {
