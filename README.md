@@ -54,6 +54,14 @@ how to position items with Z-Index, relative and asbolute positioning.
 
 Have to work on making sites fully responsive at all screen sizes, error with floating image that needs to be fixed
 
+I had quite a few layout positioning issues with this if anyone can help id love some feedback!
+
+1) in 375px mobile view, when you the bg of the hero image moves when it shouldnt
+2) in 375px mobile view, the hero img does not stay stationary when scaling in/out
+3) could not get the BG img in desktop view to work at all without skewing the entire layout
+
+this is as close as i could get it, if anyone can offer any suggestions or tips, id love them! thanks
+
 ### Useful resources
 
 - [Kevin Powell](https://www.youtube.com/KevinPowell) - HTML & CSS tutorirals
